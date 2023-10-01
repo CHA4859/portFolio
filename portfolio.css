@@ -505,7 +505,7 @@ html[data-current-page-index="0"] .page-indicator {
 .rully{
     width: 630px;
     height: 460px;
-    background-image: url(image/rully-mockUp.png);
+    background-image: url(./image/rully-mockUp.png);
     background-position: center;
     background-size: cover;
 }
@@ -513,7 +513,7 @@ html[data-current-page-index="0"] .page-indicator {
 .next{
     width: 630px;
     height: 460px;
-    background-image: url(image/zara-mockUp.png);
+    background-image: url(./image/zara-mockUp.png);
     background-position: center;
     background-size: cover;
 }
@@ -610,7 +610,7 @@ html[data-current-page-index="0"] .page-indicator {
     z-index: 6;
     width: 230px;
     height: 230px;
-    background-image: url(image/zara_simbol.png);
+    background-image: url(./image/zara_simbol.png);
     background-position: center;
     background-size: cover;
 }
@@ -730,7 +730,7 @@ html[data-current-page-index="0"] .page-indicator {
     z-index: 6;
     width: 230px;
     height: 230px;
-    background-image: url(/image/rully_simbol.png);
+    background-image: url(./image/rully_simbol.png);
     background-position: center;
     background-size: cover;
 }
@@ -849,7 +849,7 @@ html[data-current-page-index="0"] .page-indicator {
     z-index: 6;
     width: 230px;
     height: 230px;
-    background-image: url(/image/zara_simbol.png);
+    background-image: url(./image/zara_simbol.png);
     background-position: center;
     background-size: cover;
 }
@@ -897,7 +897,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 30%;
     height: 45%;
-    background-image: url(/image/graphic1.png);
+    background-image: url(./image/graphic1.png);
     background-position: center;
     background-size: cover;
 }
@@ -918,7 +918,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 30%;
     height: 45%;
-    background-image: url(/image/graphic2.png);
+    background-image: url(./image/graphic2.png);
     background-position: top;
     background-size: cover;
 }
@@ -939,7 +939,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 30%;
     height: 45%;
-    background-image: url(/image/graphic3.png);
+    background-image: url(./image/graphic3.png);
     background-position: top;
     background-size: cover;
 }
@@ -960,7 +960,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 30%;
     height: 45%;
-    background-image: url(/image/graphic4.jpg);
+    background-image: url(./image/graphic4.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -981,7 +981,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 30%;
     height: 45%;
-    background-image: url(/image/graphic5.png);
+    background-image: url(./image/graphic5.png);
     background-position: top;
     background-size: cover;
 }
@@ -1002,7 +1002,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 30%;
     height: 45%;
-    background-image: url(/image/graphic6.png);
+    background-image: url(./image/graphic6.png);
     background-position: top;
     background-size: cover;
 }
@@ -1068,7 +1068,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 40%;
     height: 45%;
-    background-image: url(/image/1.png);
+    background-image: url(./image/1.png);
     background-position: center;
     background-size: cover;
 }
@@ -1089,7 +1089,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 40%;
     height: 45%;
-    background-image: url(/image/2.png);
+    background-image: url(./image/2.png);
     background-position: center;
     background-size: cover;
 }
@@ -1110,7 +1110,7 @@ html[data-current-page-index="0"] .page-indicator {
     filter: grayscale(1) contrast(0.8);
     width: 85%;
     height: 45%;
-    background-image: url(/image/3.png);
+    background-image: url(./image/3.png);
     background-position: center;
     background-size: cover;
 }
@@ -1338,7 +1338,7 @@ html[data-current-page-index="0"] .page-indicator {
     .mac {
         width: 330px;
         height: 250px;
-        background-image: url(/image/mockup-zara.png);
+        background-image: url(./image/mockup-zara.png);
         background-position: center;
         background-size: cover;
     }
@@ -1366,7 +1366,7 @@ html[data-current-page-index="0"] .page-indicator {
         z-index: 6;
         width: 150px;
         height: 150px;
-        background-image: url(image/zara_simbol.png);
+        background-image: url(./image/zara_simbol.png);
         background-position: center;
         background-size: cover;
     }
@@ -1389,7 +1389,7 @@ html[data-current-page-index="0"] .page-indicator {
         z-index: 6;
         width: 150px;
         height: 150px;
-        background-image: url(image/rully_simbol.png);
+        background-image: url(./image/rully_simbol.png);
         background-position: center;
         background-size: cover;
     }
@@ -1417,7 +1417,7 @@ html[data-current-page-index="0"] .page-indicator {
         z-index: 6;
         width: 150px;
         height: 150px;
-        background-image: url(/image/zara_simbol.png);
+        background-image: url(./image/zara_simbol.png);
         background-position: center;
         background-size: cover;
     }
