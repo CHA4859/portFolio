@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rully Coffee</title>
+    <link rel="website icon" type="png" href="/Rully web/img/icon_logo.png">
+    <link rel="stylesheet" href="rully.css">
+    <script src="rully_jQuery.js"></script>
+    <link rel="stylesheet" href="rully_media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="body-wrap"></div>
+    <header>
+        <div class="mobile-header">
+            <div class="mobile-header-wrap">
+                <div class="hamburger">
+                    <a href="#" class="none-click">
+                        <img src="img/hamburger.png" alt="hambergur_img">
+                    </a>
+                </div>
+                <div class="mobile-logo">
+                    <a href="./index.html">
+                        <img src="img/logo_color.png" alt="mobile-logo_img">
+                    </a>
+                </div>
+                <div class="mobile-lag">
+                    <select name="lan" class="mobile-select">
+                        <option value="option">KOR</option>
+                        <option value="option">ENG</option>
+                        <option value="option">JPN</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div class="mobile-x">
+                    <a href="#" class="none-click">
+                        <img src="img/x.png" alt="close-btn">
+                    </a>
+                </div>
+                <ul class="mobile-menu-ul">
+                    <li class="mobile-menu-li">
+                        <a href="#" class="none-click">룰리 소개</a>
+                        <ul class="mobile-sub-menu-ul">
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">브랜드 소개</a>
+                            </li>
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">브랜드 BI</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu-li">
+                        <a href="#" class="none-click">메뉴 이야기</a>
+                        <ul class="mobile-sub-menu-ul">
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">스페셜티 커피</a>
+                            </li>
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">드립패키지</a>
+                            </li>
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">룰리 굿즈</a>
+                            </li>
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">정기배송</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu-li">
+                        <a href="#" class="none-click">매장 찾기</a>
+                        <ul class="mobile-sub-menu-ul">
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">룰리 매장 찾기</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu-li">
+                        <a href="#" class="none-click">체인점 창업안내</a>
+                        <ul class="mobile-sub-menu-ul">
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">체인점 개설 안내</a>
+                            </li>
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">체인점 개설 문의</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu-li">
+                        <a href="#" class="none-click">새소식 & 공지</a>
+                        <ul class="mobile-sub-menu-ul">
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">새소식</a>
+                            </li>
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">공지사항</a>
+                            </li>
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">채용안내</a>
+                            </li>
+                            <li class="mobile-sub-menu-li">
+                                <a href="#" class="none-click">공지사항</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-wrap">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/rullycoffee_logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="logo-color">
+                <a href="./index.html">
+                    <img src="img/logo_color.png" alt="logo-color">
+                </a>
+            </div>
+            <div class="menu-bg"></div>
+            <div class="menu">
+                <ul class="menu-ul">
+                    <li class="menu-li">
+                        <a class="menu-li-a" href="#">룰리 소개</a>
+                        <ul class="sub-menu-ul">
+                            <li class="sub-menu-li">
+                                <a href="#">브랜드 소개</a>
+                            </li>
+                            <li class="sub-menu-li">
+                                <a href="#">브랜드 BI</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-li">
+                        <a class="menu-li-a" href="#">메뉴 이야기</a>
+                        <ul class="sub-menu-ul">
+                            <li class="sub-menu-li">
+                                <a href="#">스페셜티 커피</a>
+                            </li>
+                            <li class="sub-menu-li">
+                                <a href="#">드립패키지</a>
+                            </li>
+                            <li class="sub-menu-li">
+                                <a href="#">룰리 굿즈</a>
+                            </li>
+                            <li class="sub-menu-li">
+                                <a href="#">정기배송</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-li">
+                        <a class="menu-li-a" href="#">매장 찾기</a>
+                        <ul class="sub-menu-ul">
+                            <li class="sub-menu-li">
+                                <a href="#">룰리 매장 찾기</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-li">
+                        <a class="menu-li-a" href="#">체인점 창업안내</a>
+                        <ul class="sub-menu-ul">
+                            <li class="sub-menu-li">
+                                <a href="#">체인점 개설 안내</a>
+                            </li>
+                            <li class="sub-menu-li">
+                                <a href="#">체인점 개설 문의</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-li">
+                        <a class="menu-li-a" href="#">새소식 & 공지</a>
+                        <ul class="sub-menu-ul">
+                            <li class="sub-menu-li">
+                                <a href="#">새소식</a>
+                            </li>
+                            <li class="sub-menu-li">
+                                <a href="#">공지사항</a>
+                            </li>
+                            <li class="sub-menu-li">
+                                <a href="#">채용안내</a>
+                            </li>
+                            <li class="sub-menu-li">
+                                <a href="#">공지사항</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="lan">
+                <select id="langSelect" name="lan">
+                    <option value="option">KOR</option>
+                    <option value="option">ENG</option>
+                    <option value="option">JPN</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <div class="page" id="fullpage">
+        <div class="page-1">
+            <section class="one">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="slide-1">
+                            <img src="img/slide_1.png" alt="slide_img_1">
+                            <div class="slide-text">
+                                <div class="slide-wrap">
+                                    <span class="slide-text-title">Rully Delivery</span>
+                                    <span class="slide-text-content">룰리커피는 고객님께서 원하는 커피를 <br>원하는 양만큼 원하는 날에 보내드립니다.
+                                    </span>
+                                    <a href="#" class="slide-text-more">VIEW MORE ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" id="slide-2">
+                            <img src="img/slide_2.png" alt="slide_img_2">
+                            <div class="slide-text">
+                                <div class="slide-wrap">
+                                    <span class="slide-text-title">Rully Goods</span>
+                                    <span class="slide-text-content">룰리 굿즈제품과 함께 더욱 풍성해질 나의 일상,<br> 오직 룰리에서 만나보실 수 있습니다.
+                                    </span>
+                                    <a href="#" class="slide-text-more">VIEW MORE ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" id="slide-3">
+                            <img src="img/slide_3.png" alt="slide_img_3">
+                            <div class="slide-text">
+                                <div class="slide-wrap">
+                                    <span class="slide-text-title">Rully Mood</span>
+                                    <span class="slide-text-content">단조로운 지친 일상에서 벗어나 자연을 담은<br> 이곳에서 잠깐의 여유를 느껴보세요.
+                                    </span>
+                                    <a href="#" class="slide-text-more">VIEW MORE ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+        </div>
+        <div class="page-2">
+            <section class="two">
+                <div class="menu-story">
+                    <div class="menu-story-container">
+                        <ul class="menu-story-ul">
+                            <li class="menu-story-li">
+                                <div class="menu-story-img">
+                                    <p class="small-text">RULLY PRODUCT</p>
+                                    <img src="img/menu_1.png" alt="coffee_bean">
+                                    <div class="hover">
+                                        <div class="hover-bg"></div>
+                                        <div class="hover-tra"></div>
+                                        <a href="#" class="hover-text">view more ></a>
+                                    </div>
+                                </div>
+                                <div class="menu-story-content">
+                                    <span class="menu-title">스페셜 티 커피</span>
+                                    <a class="menu-content">고객의 손에 들리는 품격있는 한 잔의 커피를 위해 직접 로스팅한 원두를 판매합니다. </a>
+                                </div>
+                            </li>
+                            <li class="menu-story-li">
+                                <div class="menu-story-img">
+                                    <p class="small-text">RULLY PRODUCT</p>
+                                    <img src="img/menu_2.png" alt="coffee_bean">
+                                    <div class="hover">
+                                        <div class="hover-bg"></div>
+                                        <div class="hover-tra"></div>
+                                        <a href="#" class="hover-text">view more ></a>
+                                    </div>
+                                </div>
+                                <div class="menu-story-content">
+                                    <span class="menu-title">핸드 드립 패키지</span>
+                                    <span class="menu-content">별도의 커피 도구 없이 잔에 걸어 물만 따라주면 간편하고 맛있게 즐기실 수 있습니다.</span>
+                                </div>
+                            </li>
+                            <li class="menu-story-li">
+                                <div class="menu-story-img">
+                                    <p class="small-text">RULLY PRODUCT</p>
+                                    <img src="img/menu_3.png" alt="coffee_bean">
+                                    <div class="hover">
+                                        <div class="hover-bg"></div>
+                                        <div class="hover-tra"></div>
+                                        <a href="#" class="hover-text">view more ></a>
+                                    </div>
+                                </div>
+                                <div class="menu-story-content">
+                                    <span class="menu-title">클레버 드립 세트</span>
+                                    <span class="menu-content">나만의 공간에서 내려마시는 재미를 즐길 수 있는 룰리 클레버 커피 드립 세트입니다.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-click">
+                        <div class="button-prev">
+                        </div>
+                        <div class="button-next">
+                        </div>
+                    </div>
+                    <div class="menu-story-text">
+                        <span class="menu-story-text-title" id="menu">MENU</span>
+                        <span class="menu-story-text-title" id="story">STORY</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="page-3">
+            <section class="three">
+                <div class="news">
+                    <h1 class="title">RULLY NEWS</h1>
+                    <h2 class="sub-title">GRAND OPEND 2ND <br> 룰리커피의 또 다른 공간</h2>
+                    <p class="content">
+                        룰리커피 가창점이 새롭게 오픈 했습니다. <br>
+                        1호점과는 또 다른, 감성을 느끼실 수 있는 2호점 입니다. <br>
+                        <br>
+                        무궁한 이야기를 썼다 지우며 파생된, 작은 아이디어들이<br>
+                        하나씩 모여 구현될 수 있도록 룰리커피 가창점에 세심히 담아보았습니다.<br>
+                        <br>
+                        <strong>'룰리커피' 그 두 번째 이야기</strong>를 함께 써내려가 주세요.
+                    </p>
+                    <div class="pointer">
+                        <a href="#" class="none-click">
+                            <img src="img/pointer.png" alt="pointer">
+                            <span class="find">FIND A STORE</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="page-4">
+            <section class="four">
+                <div class="franchise">
+                    <h1 class="title">FRANCHISE</h1>
+                    <h2 class="sub-title">당신의 창업 성공 스토리, <br> 룰리커피가 함께합니다.</h2>
+                    <p class="content">
+                        차별화된 커피 경험을 누릴 수 있는 리저브 매장, <br>
+                        자연과 함께 느낄 수 있는 친환경 매장, <br>
+                        함께해서 더 따뜻할수 있는 지역사회 소통 공간 커뮤니티 매장 <br>
+                        <br>
+                        룰리커피의 축적된 경험과 노하우를 바탕으로 <br>
+                        여러분의 <strong>성공창업을 약속</strong> 드립니다.
+                    </p>
+                    <div class="franchise-button">
+                        <a href="#" class="button1">
+                            창업 설명 안내
+                        </a>
+                        <a href="#" class="button2">
+                            창업 문의 신청
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="page-5">
+            <section class="five">
+                <div class="customer-service">
+                    <h1 class="customer-service-text">
+                        RULLY SERVICE
+                    </h1>
+                    <div class="banner">
+                        <div class="serch-store">
+                            <p class="serch-title">
+                                룰리커피 매장 찾기
+                            </p>
+                            <p class="serch-content">
+                                전국 어디에서나 룰리커피를 가까이에서 경험해보세요. 
+                                <br>
+                                고객님과 가장 가까이 있는 매장을 찾아보세요!
+                            </p>
+                            <div class="serch-click">
+                                <a href="#" class="active">
+                                    매장명
+                                </a>
+                                <a href="#">
+                                    주소
+                                </a>
+                            </div>
+                            <ul class="type-button tab active">
+                                <input class="type" placeholder="매장명을 입력해주세요.">
+                                <div class="serch-icon">
+                                    <a href="#" class="none-click">
+                                        <img src="img/serch_white.png" alt="serch-icon">
+                                    </a>
+                                </div>
+                            </ul>
+                            <ul class="type-button-address tab">
+                                <input class="type" placeholder="주소를 입력해주세요.">
+                                <div class="serch-icon">
+                                    <a href="#" class="none-click">
+                                        <img src="img/serch_white.png" alt="serch-icon">
+                                    </a>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="inquiry">
+                            <p class="inquiry-title">
+                                온라인 상담 센터
+                            </p>
+                            <p class="inquiry-content">
+                            <span class="inquiry-text" id="del">전화문의 및 온라인으로 문의가 가능합니다.<br></span>
+                            <span class="inquiry-text" id="del">
+                                신속하고 정확하게 답변드리겠습니다.<br></span>
+                            <span class="inquiry-text">
+                                고객센터 : 070-7823-7636
+                                <br>
+                            </span>
+                            <span class="inquiry-text">
+                                운영시간 : 평일 오전 09:00 ~ 오후 6:00
+                                <br>
+                            </span>
+                            </p>
+                            <div class="inquiry-button">
+                                <a href="#" class="inquiry-button-text">온라인 문의하기</a>
+                            </div>
+                        </div>
+                        <div class="notice">
+                            <p class="notice-title">
+                                공지사항
+                            </p>
+                            <ul class="notice-ul">
+                                <li class="notice-li">
+                                    <span class="notice-li-title"><strong class="strong">[공지]</strong>
+                                        <span class="notice-content">개인정보처리방침 이용약관 개정 안내</span>
+                                    </span>
+                                    <span class="notice-date">03/08</span>
+                                </li>
+                                <li class="notice-li">
+                                    <span class="notice-li-title"><strong class="strong">[공지]</strong>
+                                        <span class="notice-content">[신규소식] 룰리커피 브랜드 앱 출시!</span>
+                                    </span>
+                                    <span class="notice-date">04/29</span>
+                                </li>
+                                <li class="notice-li">
+                                    <span class="notice-li-title"><strong class="strong">[공지]</strong>
+                                        <span class="notice-content">룰리커피 정기배송 배송 시스템 변경</span>
+                                    </span>
+                                    <span class="notice-date">06/25</span>
+                                </li>
+                                <li class="notice-li" id="line-select-li">
+                                    <span class="notice-li-title"><strong class="strong">[공지]</strong>
+                                        <span class="notice-content">룰리커피 가창점 [2호점] 오픈 안내</span>
+                                    </span>
+                                    <span class="notice-date">09/24</span>
+                                </li>
+                                <li class="notice-li" id="select-li">
+                                    <span class="notice-li-title"><strong class="strong">[공지]</strong>
+                                        <span class="notice-content">룰리커피 추석 영업시간 안내</span>
+                                    </span>
+                                    <span class="notice-date">10/05</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="page-6">
+            <section class="six">
+                <div class="footer">
+                    <div class="footer-section-1">
+                        <div class="footer-section-1-1">
+                            <a href="#" class="none-click">기업 및 단체구매안내</a>
+                            <a href="#" class="none-click">협력업체 제안</a>
+                            <a href="#" class="none-click">가맹상담신청</a>
+                        </div>
+                        <div class="footer-section-1-2">
+                            <span class="footer-title"><strong class="footer-strong">Address</strong>
+                                <span class="footer-content">대구광역시 수성구 고모로 188 룰리커피</span>
+                            </span>
+                            <span class="footer-title"><strong class="footer-strong">Customer Center</strong>
+                                <span class="footer-content">고객센터 : 070-4671-6089</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="footer-section-2">
+                        <div class="footer-section-2-1">
+                            <ul class="footer-ul-menu">
+                                <li class="footer-li-menu">
+                                    <a href="#" class="none-click">
+                                    이용약관</a>
+                                </li>
+                                <li class="footer-li-menu">
+                                    <a href="#" class="none-click">
+                                    개인정보처리방침</a>
+                                </li>
+                                <li class="footer-li-menu">
+                                    <a href="#" class="none-click">
+                                    위치기반서비스 이용약관</a>
+                                </li>
+                                <li class="footer-li-menu">
+                                    <a href="#" class="none-click">
+                                    법적고지</a>
+                                </li>
+                                <li class="footer-li-menu">
+                                    <a href="#" class="none-click">
+                                    사업자정보확인</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-ul-info">
+                                <li class="footer-li-info">
+                                    상호명 : 룰리컴퍼니 주식회사
+                                </li>
+                                <li class="footer-li-info">
+                                    대표 : 김철우
+                                </li>
+                                <li class="footer-li-info" id="info">
+                                    전화 : 070-4671-6089
+                                </li>
+                            </ul>
+                            <ul class="footer-ul-info">
+                                <li class="footer-li-info">
+                                    주소 : 대구광역시 수성구 고모로 188 1동 (고모동)
+                                </li>
+                                <li class="footer-li-info" id="info">
+                                    사업자등록번호 : 453-87-01183
+                                </li>
+                            </ul>
+                            <ul class="footer-ul-info">
+                                <li class="footer-li-info">
+                                    통신판매업신고 : 제2019-대구수성구-0520호
+                                </li>
+                                <li class="footer-li-info" id="info">
+                                    이메일 : rully@rullycoffee.com
+                                </li>
+                            </ul>
+                            <p class="copyright">
+                                Copyright (C) 2023 WebDesigner차재원. All Right Reserved
+                            </p>
+                        </div>
+                        <div class="footer-section-2-2">
+                            <ul class="footer-ul-sns">
+                                <li class="footer-li-sns">
+                                    <a href="#" class="none-click">
+                                        <img src="img/insta.png" alt="instagram">
+                                    </a>
+                                </li>
+                                <li class="footer-li-sns">
+                                    <a href="#" class="none-click">
+                                        <img src="img/faceb.png" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="footer-li-sns">
+                                    <a href="#" class="none-click">
+                                        <img src="img/youtube.png" alt="youtube">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="rully.js"></script>
+</body>
+</html>
