@@ -111,26 +111,18 @@ $(function(){
 
 $(".menu-ul").mouseover(function(){
     let logo = $headerWrap.find(".logo-color");
-    $menuBg.addClass('active');
     $subMenuUl.stop().fadeIn(500);
     let menuLiA = $headerWrap.find(".menu-li > a")
-    // $(menuLiA).each(function(index, item){
-    //     $(item).css("color", "white");
-    // })
+    $menuLi.each(function(index, item){
+        $(item).css('color', '#fff');
+    })
     $(langSelect).css("color", "white");
     $('body').css('overflow', 'hidden');
 })
 $menuBg.mouseout(function(){
     let logo = $headerWrap.find(".logo-color");
-    let menuLiA = $headerWrap.find(".menu-li > a")
-    $subMenuUl.stop().fadeOut(500);
-    // $(menuLiA).each(function(index, item){
-    //     $(item).css("color", "black");
-    // })
-    $(logo).css('display', 'block');
-    
-
-    
+    let menuLiA = $headerWrap.find(".menu-li > a");
+    $subMenuUl.stop().fadeOut(500);    
     $('body').css('overflow', 'auto');
 })
 
