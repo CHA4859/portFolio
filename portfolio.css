@@ -546,6 +546,11 @@ html[data-current-page-index="0"] .page-indicator {
     margin-top: 20px;
 }
 
+#zara-title-sub{
+    font-weight: 500;
+    color: #F3079C;
+}
+
 .main-title{
     color: #F3079C;
     font-size: 70px;
@@ -672,8 +677,13 @@ html[data-current-page-index="0"] .page-indicator {
     margin-top: 20px;
 }
 
+#rully-title-sub{
+    font-weight: 500;
+    color: #5E8549;
+}
+
 #rully{
-    margin: 20px 0 30px 0;
+    margin: 10px 0 10px 0;
     color: #5E8549;
     font-size: 36px;
     font-weight: 900;
