@@ -748,7 +748,7 @@ html[data-current-page-index="0"] .page-indicator {
 /* seven */
 
 .seven{
-    background-color: rgba(6,52,243,0.2);
+    background-color: rgba(5,38,150,0.2);
 }
 
 .seven-wrap-bg{
@@ -772,6 +772,14 @@ html[data-current-page-index="0"] .page-indicator {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.simons{
+    width: 630px;
+    height: 460px;
+    background-image: url(./image/simons_imac.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .content-text{
@@ -809,6 +817,17 @@ html[data-current-page-index="0"] .page-indicator {
     font-family: 'Times New Roman', Times, serif;
 }
 
+#simons-title-sub{
+    color: #052696;
+}
+
+#simons{
+    color: #052696;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .type{
     display: flex;
     margin-top: 10px;
@@ -832,6 +851,10 @@ html[data-current-page-index="0"] .page-indicator {
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+#simons-button:hover{
+    background-color: #052696;
 }
 
 .a-class{
@@ -859,7 +882,7 @@ html[data-current-page-index="0"] .page-indicator {
     z-index: 6;
     width: 230px;
     height: 230px;
-    background-image: url(./image/zara_simbol.png);
+    background-image: url(./image/simons_simbol.png);
     background-position: center;
     background-size: cover;
 }
