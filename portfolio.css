@@ -855,6 +855,7 @@ html[data-current-page-index="0"] .page-indicator {
 
 #simons-button:hover{
     background-color: #052696;
+    border: 1px solid #052696;
 }
 
 .a-class{
@@ -871,12 +872,6 @@ html[data-current-page-index="0"] .page-indicator {
     margin-left: 0;
 }
 
-.a-class:hover{
-    background-color: #F3079C;
-    color: white;
-    border: 1px solid #F3079C;
-    transition: all 0.4s;
-}
 
 .ball3{
     z-index: 6;
