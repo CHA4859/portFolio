@@ -27,3 +27,43 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+  //  tab active
+const $tabMenu = $(".tab-menu a");
+const $tab = $(".tab");
+
+$tabMenu.each(function(index, item){
+    $(item).click(function(){
+        $tabMenu.each(function(index, item){
+            $(item).removeClass("active");
+        })
+        $(item).addClass("active");
+        $tab.each(function(index, item){
+            $(item).removeClass("active");
+        })
+        let target = $tab.get(index);
+        $(target).addClass("active");
+    })
+})
+
+// 클릭 시 상단이동 방지
+
+$tabMenu.click(function(e){
+  e.preventDefault();
+})
+
+$tab.click(function(e){
+  e.preventDefault();
+})
+
+
+// top button
+
+const $topBtn = document.querySelector(".moveTopBtn");
+
+// 버튼 클릭 시 맨 위로 이동
+$topBtn.onclick = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });  
+}
+
