@@ -500,6 +500,7 @@ section{
 
 .denim-text-title{
     font-size: 21px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .denim-text-title2{
@@ -516,6 +517,7 @@ section{
     padding-top: 10px;
     line-height: 30px;
     height: 144px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .button2{
